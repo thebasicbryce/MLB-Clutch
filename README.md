@@ -1,19 +1,14 @@
-# Project 1
+# MLB-Clutch
 
 
 ## Resources
-Snippets of code used from Laurie Shaw's:
-<https://github.com/Friends-of-Tracking-Data-FoTD/LaurieOnTracking>
-Metrica Sports:
-<https://github.com/metrica-sports/sample-data>
+Kaggle Dataset https://www.kaggle.com/datasets/johnadamek/mlb-complete-play-by-play-datasets-20172020
 
-## Brief description of Assignment/Project
-Made a new and improved Impact factor that values in-behind passes in the box, teamate support, and separation  
+## Brief description
+Made a new Clutch model including current gamestates by using weighted run scoring at-bats. Ran a spearman rho correlation on our statistics
 
-Used ChatGPT to help with code for both indexing and to isolate frames (tolist command)
-## Group Members And Contributions
-Bryce Barkauskas - Coding and Visualization
-Alyssa Rossi - Research and Report  
+Used ChatGPT to help with code where indicated. Also used for general debugging problems
+
 ## Setup
 
 If using `pyenv` virtual env:
@@ -30,10 +25,3 @@ From your virtual environment:
 ```shell
 pip install -r requirements.txt
 ```
-
-Get the data:
-
-```shell
-git clone https://github.com/metrica-sports/sample-data
-```
-
